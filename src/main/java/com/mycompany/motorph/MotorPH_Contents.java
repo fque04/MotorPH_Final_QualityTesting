@@ -5,7 +5,7 @@ import java.util.*;
 
 import javax.swing.JOptionPane;
 
-//Class
+//Class 
 public class MotorPH_Contents extends ErrorTest implements SetLabel{
     EmployeeAttendance empAttendance = new EmployeeAttendance();
     EmployeePersonalDetails empDetails = new EmployeePersonalDetails();
@@ -109,7 +109,7 @@ public class MotorPH_Contents extends ErrorTest implements SetLabel{
     }
 
    
-    
+    //Method to call for selecting options on the main menu.
     public void createOptions(boolean login) throws IOException{
         if(login){
             char choice = ' ';
